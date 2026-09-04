@@ -88,7 +88,7 @@ def _request_json(
         if exc.code == 401:
             raise YinchaoAPIError("API Key 无效或未授权，请检查 YINCHAO_API_KEY 环境变量的配置。") from exc
         if exc.code == 402:
-            raise YinchaoAPIError("免费额度或余额不足，请前往音潮开放平台检查账户。") from exc
+            raise YinchaoAPIError("余额不足，请前往音潮开放平台检查账户并充值。") from exc
         raise YinchaoAPIError(f"请求失败（HTTP {exc.code}）：{detail or '请稍后重试'}") from exc
     except URLError as exc:
         raise YinchaoAPIError(f"网络请求失败：{exc.reason}。请检查网络后重试。") from exc

@@ -1,10 +1,12 @@
 # 音潮 IP 歌曲创作（yinchao-ip-music）
 
-> 当前版本：v1.0.0
+> 当前版本：v1.0.1
 
 **给你的角色、IP、热点话题做一首专属 AI 歌曲——从想法到成曲，3 步完成。**
 
 不用懂音乐，不用写提示词。说出你的目标，它会联网搜索素材、创作歌词与曲风，再交给音潮 AI 生成可播放的完整歌曲（默认 2 个版本任你选）。
+
+> 💡 **零成本起步**：歌词与曲风创作完全免费、无需 API Key——先创作试听，满意后再按量付费生歌。
 
 ## 效果预览
 
@@ -24,7 +26,7 @@
 
 ## 注册音潮开放平台
 
-> 🎁 **当前限时免费**。本 skill 的音乐生成由[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)提供，使用前需要注册并创建 API Key：
+> ⚡ **生歌环节按量计费**。本 skill 的音乐生成由[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)提供，无订阅、按量付费，使用前需要注册并创建 API Key：
 
 1. 前往[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)注册账号
 2. 在控制台创建 API Key
@@ -67,8 +69,8 @@
 
 ## 常见问题
 
-**要付费吗？**
-当前限时免费。活动期限、可用额度和后续计费以[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)展示为准。
+**生歌要收费吗？**
+歌词与曲风创作**完全免费**，不需要 API Key；AI 生歌环节按量计费、无订阅，具体价格以[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)展示为准。
 
 **API Key 从哪里来？**
 在[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)注册并创建，然后设置环境变量 `YINCHAO_API_KEY`。
@@ -84,4 +86,4 @@ API Key 只保存在本机配置文件，不进聊天记录；本 skill 不会�
 
 ---
 
-由[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)驱动 · 当前限时免费
+由[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)驱动 · 歌词曲风免费，生歌按量计费

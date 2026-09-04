@@ -312,7 +312,7 @@ class TestRequestJsonErrors(unittest.TestCase):
         mock_urlopen.side_effect = self._http_error(402)
         with self.assertRaises(ym.YinchaoAPIError) as ctx:
             ym._request_json("GET", "/api/v1/x", "k", base_url="http://x")
-        self.assertIn("额度或余额不足", str(ctx.exception))
+        self.assertIn("余额不足", str(ctx.exception))
 
     @patch.object(ym, "urlopen")
     def test_500_with_detail(self, mock_urlopen):
