@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """yinchao-ip-music 生歌脚本：提交完整歌曲生成，轮询等待，下载 MP3。
 
-只做「完整歌曲生成」：歌词 + 曲风描述 → 音潮 v4.0 → 默认 2 个版本。
+只做「完整歌曲生成」：歌词 + 曲风描述 → 音潮 v4.5 → 默认 2 个版本。
 认证读取环境变量 YINCHAO_API_KEY（素材 B 设计）；可选 YINCHAO_API_BASE 指定 API 地址。
 """
 
@@ -127,7 +127,7 @@ def submit_song(prompt: str, lyric: str, count: int, api_key: str,
     if count not in {1, 2}:
         raise YinchaoAPIError("版本数只能是 1 或 2。")
     payload = {
-        "model": "v4.0",
+        "model": "v4.5",
         "task_type": "normal",
         "prompt": prompt,
         "lyric": lyric,

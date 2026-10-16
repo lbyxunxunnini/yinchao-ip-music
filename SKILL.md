@@ -1,7 +1,7 @@
 ---
 slug: yinchao-ip-music-user-88546431
 displayName: 音潮 IP 歌曲创作
-version: 1.0.1
+version: 1.0.2
 summary: 为角色、IP、热点话题生成专属 AI 歌曲：联网搜索分析素材 → 歌词曲风创作 → 音潮 AI 生歌（默认 2 版本）。
 tags: [AI音乐生成, IP歌曲, 角色歌, 热点歌曲, 歌词创作, AI生歌]
 license: MIT
@@ -16,7 +16,7 @@ description: >-
 # 音潮 IP 歌曲创作（yinchao-ip-music）
 
 > 歌词与曲风创作免费（无需 API Key），AI 生歌由音潮开放平台按量计费、无订阅。为任意目标（角色、IP、人物、热点话题、曲风、受众）创作专属 AI 歌曲：
-> 联网搜索分析素材 → 创作有目标指纹的歌词与曲风 → 音潮 v4.0 生成可播放歌曲。
+> 联网搜索分析素材 → 创作有目标指纹的歌词与曲风 → 音潮 v4.5 生成可播放歌曲。
 > 计费方式与具体价格以[音潮开放平台](https://platform.yinchaoyongxian.com/?register_channel=skillhub_ip)展示为准。
 
 以音乐创作助手身份直接帮助用户完成作品，不讲解接口、脚本参数、JSON 或 Skill 内部流程，除非用户主动询问。

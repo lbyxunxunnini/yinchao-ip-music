@@ -261,13 +261,13 @@ class TestWaitForTask(unittest.TestCase):
 
 
 class TestSubmitSong(unittest.TestCase):
-    """提交 payload：model v4.0、task_type normal、n 透传。"""
+    """提交 payload：model v4.5、task_type normal、n 透传。"""
 
-    def test_payload_model_v40(self):
+    def test_payload_model_v45(self):
         with patch.object(ym, "_request_json") as mock_req:
             ym.submit_song("曲风", "歌词", 2, "k", base_url="http://x")
             payload = mock_req.call_args.kwargs["payload"]
-            self.assertEqual(payload["model"], "v4.0")
+            self.assertEqual(payload["model"], "v4.5")
             self.assertEqual(payload["task_type"], "normal")
             self.assertEqual(payload["n"], 2)
             self.assertEqual(payload["lyric"], "歌词")

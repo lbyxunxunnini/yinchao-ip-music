@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.2 (2026-10-16)
+
+生歌模型升级至音潮 v4.5。
+
+### 变更
+- 生歌脚本提交 payload 的 `model` 由 `v4.0` 改为 `v4.5`（`scripts/yinchao_music.py`）
+- README 与 SKILL.md 中的模型表述同步为「音潮 v4.5」
+- 单元测试断言与用例名同步更新（`test_payload_model_v40` → `test_payload_model_v45`）
+
 ## v1.0.1 (2026-09-04)
 
 音潮开放平台已转为按量计费，更新全部对外宣传语与内部计费表述。
